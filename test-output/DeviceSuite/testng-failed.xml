@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DeviceSuite]" parallel="tests">
+  <parameter name="port" value="4725"/>
+  <parameter name="device" value="b47cd2aa"/>
+  <parameter name="version" value="4.4.2"/>
+  <parameter name="platformname" value="Android"/>
+  <test name="Device 1">
+    <parameter name="port" value="4723"/>
+    <parameter name="device" value="ZX1D63SFXH"/>
+    <parameter name="version" value="6.0"/>
+    <parameter name="platformname" value="Android"/>
+    <classes>
+      <class name="Day04.GridExecution_testNG">
+        <methods>
+          <include name="Surfing"/>
+        </methods>
+      </class> <!-- Day04.GridExecution_testNG -->
+    </classes>
+  </test> <!-- Device 1 -->
+  <test name="Device 2">
+    <parameter name="port" value="4725"/>
+    <parameter name="device" value="b47cd2aa"/>
+    <parameter name="version" value="4.4.2"/>
+    <parameter name="platformname" value="Android"/>
+    <classes>
+      <class name="Day04.GridExecution_testNG">
+        <methods>
+          <include name="Surfing"/>
+        </methods>
+      </class> <!-- Day04.GridExecution_testNG -->
+    </classes>
+  </test> <!-- Device 2 -->
+</suite> <!-- Failed suite [DeviceSuite] -->

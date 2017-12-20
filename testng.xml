@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DeviceSuite" annotations="JDK" parallel="tests">
+	<test name="Device 1">
+		<parameter name="port" value="4723"></parameter>
+		<parameter name="device" value="ZX1D63SFXH"></parameter>
+		<parameter name="version" value="6.0"></parameter>
+		<parameter name="platformname" value="Android"></parameter>
+		<classes>
+			<class name="Day04.GridExecution_testNG">
+				<methods>
+					<include name="Surfing" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Device 2">
+		<parameter name="port" value="4725"></parameter>
+		<parameter name="device" value="b47cd2aa"></parameter>
+		<parameter name="platformname" value="Android"></parameter>
+		<parameter name="version" value="4.4.2"></parameter>
+		<classes>
+			<class name="Day04.GridExecution_testNG">
+				<methods>
+					<include name="Surfing" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

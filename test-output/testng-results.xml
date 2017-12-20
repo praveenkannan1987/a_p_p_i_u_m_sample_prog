@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31" started-at="2017-12-10T07:06:00Z" finished-at="2017-12-10T07:06:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31" started-at="2017-12-10T07:06:00Z" finished-at="2017-12-10T07:06:00Z">
+      <class name="Day04.GridExecution_grid">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Day04.GridExecution_grid@5ec0a365]" name="setUp" is-config="true" duration-ms="0" started-at="2017-12-10T12:36:00Z" finished-at="2017-12-10T12:36:00Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'port' is required by @Configuration on method setUp but has not been marked @Optional or defined
+in C:\Users\Rajendiransivarajan\AppData\Local\Temp\testng-eclipse-988635296\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'port' is required by @Configuration on method setUp but has not been marked @Optional or defined
+in C:\Users\Rajendiransivarajan\AppData\Local\Temp\testng-eclipse-988635296\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="Surfing()[pri:1, instance:Day04.GridExecution_grid@5ec0a365]" name="Surfing" duration-ms="5" started-at="2017-12-10T12:36:00Z" finished-at="2017-12-10T12:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Surfing -->
+        <test-method status="SKIP" signature="close()[pri:0, instance:Day04.GridExecution_grid@5ec0a365]" name="close" is-config="true" duration-ms="0" started-at="2017-12-10T12:36:00Z" finished-at="2017-12-10T12:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Day04.GridExecution_grid -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
